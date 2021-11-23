@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/apps/vhdl/mips/vhdl_prj/reg_isim_beh.exe" -prj "D:/apps/vhdl/mips/vhdl_prj/reg_beh.prj" "work.reg" 

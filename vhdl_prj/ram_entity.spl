@@ -1,0 +1,10 @@
+[Inputs]
+clock
+reset
+MemWrite
+MemRead
+=Address[15:0]=
+=WriteData[15:0]=
+[Outputs]
+=ReadData[15:0]=
+[BiDir]

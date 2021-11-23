@@ -1,0 +1,8 @@
+[Inputs]
+=alu_nibble0[15:0]=
+=alu_nibble1[15:0]=
+=alu_control[2:0]=
+[Outputs]
+zero_flag
+=result[15:0]=
+[BiDir]

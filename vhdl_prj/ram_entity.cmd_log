@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/engna/Downloads/DM.vhd -prj vhdl_prj -o ram_entity.spl -module ram_entity -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_entity.spl D:/apps/vhdl/mips/vhdl_prj/ram_entity.sym 
+vhdtdtfi -prj vhdl_prj -o D:/apps/vhdl/mips/vhdl_prj/ram_entity.vhi -module ram_entity -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work C:/Users/engna/Downloads/DM.vhd 
+vhdtdtfi -prj vhdl_prj -o D:/apps/vhdl/mips/vhdl_prj/ram_entity.vhi -module ram_entity -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work C:/Users/engna/Downloads/DM.vhd 

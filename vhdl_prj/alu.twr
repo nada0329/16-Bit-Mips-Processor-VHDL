@@ -1,0 +1,617 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc6slx16,ftg256,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+alu_control<0> |result<0>      |   11.833|
+alu_control<0> |result<1>      |   12.358|
+alu_control<0> |result<2>      |   12.351|
+alu_control<0> |result<3>      |   12.347|
+alu_control<0> |result<4>      |   12.584|
+alu_control<0> |result<5>      |   12.537|
+alu_control<0> |result<6>      |   12.621|
+alu_control<0> |result<7>      |   13.086|
+alu_control<0> |result<8>      |   12.665|
+alu_control<0> |result<9>      |   13.158|
+alu_control<0> |result<10>     |   13.164|
+alu_control<0> |result<11>     |   12.445|
+alu_control<0> |result<12>     |   12.764|
+alu_control<0> |result<13>     |   12.941|
+alu_control<0> |result<14>     |   13.149|
+alu_control<0> |result<15>     |   12.728|
+alu_control<0> |zero_flag      |   15.529|
+alu_control<1> |result<0>      |   11.116|
+alu_control<1> |result<1>      |   11.296|
+alu_control<1> |result<2>      |   10.821|
+alu_control<1> |result<3>      |   11.724|
+alu_control<1> |result<4>      |   11.789|
+alu_control<1> |result<5>      |   12.147|
+alu_control<1> |result<6>      |   12.336|
+alu_control<1> |result<7>      |   12.678|
+alu_control<1> |result<8>      |   11.874|
+alu_control<1> |result<9>      |   11.794|
+alu_control<1> |result<10>     |   12.215|
+alu_control<1> |result<11>     |   12.376|
+alu_control<1> |result<12>     |   11.693|
+alu_control<1> |result<13>     |   11.836|
+alu_control<1> |result<14>     |   12.108|
+alu_control<1> |result<15>     |   11.616|
+alu_control<1> |zero_flag      |   15.121|
+alu_control<2> |result<0>      |   11.327|
+alu_control<2> |result<1>      |   11.349|
+alu_control<2> |result<2>      |   10.274|
+alu_control<2> |result<3>      |   11.650|
+alu_control<2> |result<4>      |   11.664|
+alu_control<2> |result<5>      |   11.290|
+alu_control<2> |result<6>      |   12.157|
+alu_control<2> |result<7>      |   12.170|
+alu_control<2> |result<8>      |   11.843|
+alu_control<2> |result<9>      |   12.086|
+alu_control<2> |result<10>     |   12.363|
+alu_control<2> |result<11>     |   11.829|
+alu_control<2> |result<12>     |   11.489|
+alu_control<2> |result<13>     |   11.403|
+alu_control<2> |result<14>     |   11.474|
+alu_control<2> |result<15>     |   11.863|
+alu_control<2> |zero_flag      |   14.613|
+alu_nibble0<0> |result<0>      |   10.995|
+alu_nibble0<0> |result<1>      |   13.470|
+alu_nibble0<0> |result<2>      |   13.461|
+alu_nibble0<0> |result<3>      |   13.423|
+alu_nibble0<0> |result<4>      |   13.601|
+alu_nibble0<0> |result<5>      |   13.554|
+alu_nibble0<0> |result<6>      |   13.681|
+alu_nibble0<0> |result<7>      |   14.134|
+alu_nibble0<0> |result<8>      |   13.761|
+alu_nibble0<0> |result<9>      |   14.254|
+alu_nibble0<0> |result<10>     |   14.260|
+alu_nibble0<0> |result<11>     |   13.541|
+alu_nibble0<0> |result<12>     |   13.860|
+alu_nibble0<0> |result<13>     |   14.037|
+alu_nibble0<0> |result<14>     |   14.245|
+alu_nibble0<0> |result<15>     |   13.824|
+alu_nibble0<0> |zero_flag      |   16.577|
+alu_nibble0<1> |result<0>      |   11.224|
+alu_nibble0<1> |result<1>      |   13.962|
+alu_nibble0<1> |result<2>      |   13.953|
+alu_nibble0<1> |result<3>      |   13.915|
+alu_nibble0<1> |result<4>      |   14.093|
+alu_nibble0<1> |result<5>      |   14.046|
+alu_nibble0<1> |result<6>      |   14.173|
+alu_nibble0<1> |result<7>      |   14.626|
+alu_nibble0<1> |result<8>      |   14.253|
+alu_nibble0<1> |result<9>      |   14.746|
+alu_nibble0<1> |result<10>     |   14.752|
+alu_nibble0<1> |result<11>     |   14.033|
+alu_nibble0<1> |result<12>     |   14.352|
+alu_nibble0<1> |result<13>     |   14.529|
+alu_nibble0<1> |result<14>     |   14.737|
+alu_nibble0<1> |result<15>     |   14.316|
+alu_nibble0<1> |zero_flag      |   17.069|
+alu_nibble0<2> |result<1>      |   14.229|
+alu_nibble0<2> |result<2>      |   14.220|
+alu_nibble0<2> |result<3>      |   14.182|
+alu_nibble0<2> |result<4>      |   14.360|
+alu_nibble0<2> |result<5>      |   14.313|
+alu_nibble0<2> |result<6>      |   14.440|
+alu_nibble0<2> |result<7>      |   14.893|
+alu_nibble0<2> |result<8>      |   14.520|
+alu_nibble0<2> |result<9>      |   15.013|
+alu_nibble0<2> |result<10>     |   15.019|
+alu_nibble0<2> |result<11>     |   14.300|
+alu_nibble0<2> |result<12>     |   14.619|
+alu_nibble0<2> |result<13>     |   14.796|
+alu_nibble0<2> |result<14>     |   15.004|
+alu_nibble0<2> |result<15>     |   14.583|
+alu_nibble0<2> |zero_flag      |   17.336|
+alu_nibble0<3> |result<1>      |   14.148|
+alu_nibble0<3> |result<2>      |   14.139|
+alu_nibble0<3> |result<3>      |   14.101|
+alu_nibble0<3> |result<4>      |   14.279|
+alu_nibble0<3> |result<5>      |   14.232|
+alu_nibble0<3> |result<6>      |   14.359|
+alu_nibble0<3> |result<7>      |   14.812|
+alu_nibble0<3> |result<8>      |   14.439|
+alu_nibble0<3> |result<9>      |   14.932|
+alu_nibble0<3> |result<10>     |   14.938|
+alu_nibble0<3> |result<11>     |   14.219|
+alu_nibble0<3> |result<12>     |   14.538|
+alu_nibble0<3> |result<13>     |   14.715|
+alu_nibble0<3> |result<14>     |   14.923|
+alu_nibble0<3> |result<15>     |   14.502|
+alu_nibble0<3> |zero_flag      |   17.255|
+alu_nibble0<4> |result<1>      |   13.626|
+alu_nibble0<4> |result<2>      |   13.617|
+alu_nibble0<4> |result<3>      |   13.579|
+alu_nibble0<4> |result<4>      |   13.757|
+alu_nibble0<4> |result<5>      |   13.710|
+alu_nibble0<4> |result<6>      |   13.837|
+alu_nibble0<4> |result<7>      |   14.290|
+alu_nibble0<4> |result<8>      |   13.917|
+alu_nibble0<4> |result<9>      |   14.410|
+alu_nibble0<4> |result<10>     |   14.416|
+alu_nibble0<4> |result<11>     |   13.697|
+alu_nibble0<4> |result<12>     |   14.016|
+alu_nibble0<4> |result<13>     |   14.193|
+alu_nibble0<4> |result<14>     |   14.401|
+alu_nibble0<4> |result<15>     |   13.980|
+alu_nibble0<4> |zero_flag      |   16.733|
+alu_nibble0<5> |result<1>      |   13.844|
+alu_nibble0<5> |result<2>      |   13.835|
+alu_nibble0<5> |result<3>      |   13.797|
+alu_nibble0<5> |result<4>      |   13.975|
+alu_nibble0<5> |result<5>      |   13.928|
+alu_nibble0<5> |result<6>      |   14.055|
+alu_nibble0<5> |result<7>      |   14.508|
+alu_nibble0<5> |result<8>      |   14.135|
+alu_nibble0<5> |result<9>      |   14.628|
+alu_nibble0<5> |result<10>     |   14.634|
+alu_nibble0<5> |result<11>     |   13.915|
+alu_nibble0<5> |result<12>     |   14.234|
+alu_nibble0<5> |result<13>     |   14.411|
+alu_nibble0<5> |result<14>     |   14.619|
+alu_nibble0<5> |result<15>     |   14.198|
+alu_nibble0<5> |zero_flag      |   16.951|
+alu_nibble0<6> |result<1>      |   14.218|
+alu_nibble0<6> |result<2>      |   14.209|
+alu_nibble0<6> |result<3>      |   14.171|
+alu_nibble0<6> |result<4>      |   14.349|
+alu_nibble0<6> |result<5>      |   14.302|
+alu_nibble0<6> |result<6>      |   14.429|
+alu_nibble0<6> |result<7>      |   14.882|
+alu_nibble0<6> |result<8>      |   14.509|
+alu_nibble0<6> |result<9>      |   15.002|
+alu_nibble0<6> |result<10>     |   15.008|
+alu_nibble0<6> |result<11>     |   14.289|
+alu_nibble0<6> |result<12>     |   14.608|
+alu_nibble0<6> |result<13>     |   14.785|
+alu_nibble0<6> |result<14>     |   14.993|
+alu_nibble0<6> |result<15>     |   14.572|
+alu_nibble0<6> |zero_flag      |   17.325|
+alu_nibble0<7> |result<1>      |   14.359|
+alu_nibble0<7> |result<2>      |   14.350|
+alu_nibble0<7> |result<3>      |   14.312|
+alu_nibble0<7> |result<4>      |   14.490|
+alu_nibble0<7> |result<5>      |   14.443|
+alu_nibble0<7> |result<6>      |   14.570|
+alu_nibble0<7> |result<7>      |   15.023|
+alu_nibble0<7> |result<8>      |   14.650|
+alu_nibble0<7> |result<9>      |   15.143|
+alu_nibble0<7> |result<10>     |   15.149|
+alu_nibble0<7> |result<11>     |   14.430|
+alu_nibble0<7> |result<12>     |   14.749|
+alu_nibble0<7> |result<13>     |   14.926|
+alu_nibble0<7> |result<14>     |   15.134|
+alu_nibble0<7> |result<15>     |   14.713|
+alu_nibble0<7> |zero_flag      |   17.466|
+alu_nibble0<8> |result<1>      |   13.921|
+alu_nibble0<8> |result<2>      |   13.912|
+alu_nibble0<8> |result<3>      |   13.874|
+alu_nibble0<8> |result<4>      |   14.052|
+alu_nibble0<8> |result<5>      |   14.005|
+alu_nibble0<8> |result<6>      |   14.132|
+alu_nibble0<8> |result<7>      |   14.585|
+alu_nibble0<8> |result<8>      |   14.212|
+alu_nibble0<8> |result<9>      |   14.705|
+alu_nibble0<8> |result<10>     |   14.711|
+alu_nibble0<8> |result<11>     |   13.992|
+alu_nibble0<8> |result<12>     |   14.311|
+alu_nibble0<8> |result<13>     |   14.488|
+alu_nibble0<8> |result<14>     |   14.696|
+alu_nibble0<8> |result<15>     |   14.275|
+alu_nibble0<8> |zero_flag      |   17.028|
+alu_nibble0<9> |result<1>      |   13.908|
+alu_nibble0<9> |result<2>      |   13.899|
+alu_nibble0<9> |result<3>      |   13.861|
+alu_nibble0<9> |result<4>      |   14.039|
+alu_nibble0<9> |result<5>      |   13.992|
+alu_nibble0<9> |result<6>      |   14.119|
+alu_nibble0<9> |result<7>      |   14.572|
+alu_nibble0<9> |result<8>      |   14.199|
+alu_nibble0<9> |result<9>      |   14.692|
+alu_nibble0<9> |result<10>     |   14.698|
+alu_nibble0<9> |result<11>     |   13.979|
+alu_nibble0<9> |result<12>     |   14.298|
+alu_nibble0<9> |result<13>     |   14.475|
+alu_nibble0<9> |result<14>     |   14.683|
+alu_nibble0<9> |result<15>     |   14.262|
+alu_nibble0<9> |zero_flag      |   17.015|
+alu_nibble0<10>|result<1>      |   13.566|
+alu_nibble0<10>|result<2>      |   13.557|
+alu_nibble0<10>|result<3>      |   13.519|
+alu_nibble0<10>|result<4>      |   13.697|
+alu_nibble0<10>|result<5>      |   13.650|
+alu_nibble0<10>|result<6>      |   13.777|
+alu_nibble0<10>|result<7>      |   14.230|
+alu_nibble0<10>|result<8>      |   13.857|
+alu_nibble0<10>|result<9>      |   14.350|
+alu_nibble0<10>|result<10>     |   14.356|
+alu_nibble0<10>|result<11>     |   13.637|
+alu_nibble0<10>|result<12>     |   13.956|
+alu_nibble0<10>|result<13>     |   14.133|
+alu_nibble0<10>|result<14>     |   14.341|
+alu_nibble0<10>|result<15>     |   13.920|
+alu_nibble0<10>|zero_flag      |   16.673|
+alu_nibble0<11>|result<1>      |   14.248|
+alu_nibble0<11>|result<2>      |   14.239|
+alu_nibble0<11>|result<3>      |   14.201|
+alu_nibble0<11>|result<4>      |   14.379|
+alu_nibble0<11>|result<5>      |   14.332|
+alu_nibble0<11>|result<6>      |   14.459|
+alu_nibble0<11>|result<7>      |   14.912|
+alu_nibble0<11>|result<8>      |   14.539|
+alu_nibble0<11>|result<9>      |   15.032|
+alu_nibble0<11>|result<10>     |   15.038|
+alu_nibble0<11>|result<11>     |   14.319|
+alu_nibble0<11>|result<12>     |   14.638|
+alu_nibble0<11>|result<13>     |   14.815|
+alu_nibble0<11>|result<14>     |   15.023|
+alu_nibble0<11>|result<15>     |   14.602|
+alu_nibble0<11>|zero_flag      |   17.355|
+alu_nibble0<12>|result<1>      |   14.432|
+alu_nibble0<12>|result<2>      |   14.423|
+alu_nibble0<12>|result<3>      |   14.385|
+alu_nibble0<12>|result<4>      |   14.563|
+alu_nibble0<12>|result<5>      |   14.516|
+alu_nibble0<12>|result<6>      |   14.643|
+alu_nibble0<12>|result<7>      |   15.096|
+alu_nibble0<12>|result<8>      |   14.723|
+alu_nibble0<12>|result<9>      |   15.216|
+alu_nibble0<12>|result<10>     |   15.222|
+alu_nibble0<12>|result<11>     |   14.503|
+alu_nibble0<12>|result<12>     |   14.822|
+alu_nibble0<12>|result<13>     |   14.999|
+alu_nibble0<12>|result<14>     |   15.207|
+alu_nibble0<12>|result<15>     |   14.786|
+alu_nibble0<12>|zero_flag      |   17.539|
+alu_nibble0<13>|result<1>      |   14.685|
+alu_nibble0<13>|result<2>      |   14.676|
+alu_nibble0<13>|result<3>      |   14.638|
+alu_nibble0<13>|result<4>      |   14.816|
+alu_nibble0<13>|result<5>      |   14.769|
+alu_nibble0<13>|result<6>      |   14.896|
+alu_nibble0<13>|result<7>      |   15.349|
+alu_nibble0<13>|result<8>      |   14.976|
+alu_nibble0<13>|result<9>      |   15.469|
+alu_nibble0<13>|result<10>     |   15.475|
+alu_nibble0<13>|result<11>     |   14.756|
+alu_nibble0<13>|result<12>     |   15.075|
+alu_nibble0<13>|result<13>     |   15.252|
+alu_nibble0<13>|result<14>     |   15.460|
+alu_nibble0<13>|result<15>     |   15.039|
+alu_nibble0<13>|zero_flag      |   17.792|
+alu_nibble0<14>|result<1>      |   14.381|
+alu_nibble0<14>|result<2>      |   14.372|
+alu_nibble0<14>|result<3>      |   14.334|
+alu_nibble0<14>|result<4>      |   14.512|
+alu_nibble0<14>|result<5>      |   14.465|
+alu_nibble0<14>|result<6>      |   14.592|
+alu_nibble0<14>|result<7>      |   15.045|
+alu_nibble0<14>|result<8>      |   14.672|
+alu_nibble0<14>|result<9>      |   15.165|
+alu_nibble0<14>|result<10>     |   15.171|
+alu_nibble0<14>|result<11>     |   14.452|
+alu_nibble0<14>|result<12>     |   14.771|
+alu_nibble0<14>|result<13>     |   14.948|
+alu_nibble0<14>|result<14>     |   15.156|
+alu_nibble0<14>|result<15>     |   14.735|
+alu_nibble0<14>|zero_flag      |   17.488|
+alu_nibble0<15>|result<1>      |   14.101|
+alu_nibble0<15>|result<2>      |   14.092|
+alu_nibble0<15>|result<3>      |   14.054|
+alu_nibble0<15>|result<4>      |   14.232|
+alu_nibble0<15>|result<5>      |   14.185|
+alu_nibble0<15>|result<6>      |   14.312|
+alu_nibble0<15>|result<7>      |   14.765|
+alu_nibble0<15>|result<8>      |   14.392|
+alu_nibble0<15>|result<9>      |   14.885|
+alu_nibble0<15>|result<10>     |   14.891|
+alu_nibble0<15>|result<11>     |   14.172|
+alu_nibble0<15>|result<12>     |   14.491|
+alu_nibble0<15>|result<13>     |   14.668|
+alu_nibble0<15>|result<14>     |   14.876|
+alu_nibble0<15>|result<15>     |   14.455|
+alu_nibble0<15>|zero_flag      |   17.208|
+alu_nibble1<0> |result<0>      |   12.256|
+alu_nibble1<0> |result<1>      |   15.007|
+alu_nibble1<0> |result<2>      |   14.998|
+alu_nibble1<0> |result<3>      |   14.960|
+alu_nibble1<0> |result<4>      |   15.138|
+alu_nibble1<0> |result<5>      |   15.091|
+alu_nibble1<0> |result<6>      |   15.218|
+alu_nibble1<0> |result<7>      |   15.671|
+alu_nibble1<0> |result<8>      |   15.298|
+alu_nibble1<0> |result<9>      |   15.791|
+alu_nibble1<0> |result<10>     |   15.797|
+alu_nibble1<0> |result<11>     |   15.078|
+alu_nibble1<0> |result<12>     |   15.397|
+alu_nibble1<0> |result<13>     |   15.574|
+alu_nibble1<0> |result<14>     |   15.782|
+alu_nibble1<0> |result<15>     |   15.361|
+alu_nibble1<0> |zero_flag      |   18.114|
+alu_nibble1<1> |result<1>      |   14.675|
+alu_nibble1<1> |result<2>      |   14.666|
+alu_nibble1<1> |result<3>      |   14.628|
+alu_nibble1<1> |result<4>      |   14.806|
+alu_nibble1<1> |result<5>      |   14.759|
+alu_nibble1<1> |result<6>      |   14.886|
+alu_nibble1<1> |result<7>      |   15.339|
+alu_nibble1<1> |result<8>      |   14.966|
+alu_nibble1<1> |result<9>      |   15.459|
+alu_nibble1<1> |result<10>     |   15.465|
+alu_nibble1<1> |result<11>     |   14.746|
+alu_nibble1<1> |result<12>     |   15.065|
+alu_nibble1<1> |result<13>     |   15.242|
+alu_nibble1<1> |result<14>     |   15.450|
+alu_nibble1<1> |result<15>     |   15.029|
+alu_nibble1<1> |zero_flag      |   17.782|
+alu_nibble1<2> |result<1>      |   14.917|
+alu_nibble1<2> |result<2>      |   14.908|
+alu_nibble1<2> |result<3>      |   14.870|
+alu_nibble1<2> |result<4>      |   15.048|
+alu_nibble1<2> |result<5>      |   15.001|
+alu_nibble1<2> |result<6>      |   15.128|
+alu_nibble1<2> |result<7>      |   15.581|
+alu_nibble1<2> |result<8>      |   15.208|
+alu_nibble1<2> |result<9>      |   15.701|
+alu_nibble1<2> |result<10>     |   15.707|
+alu_nibble1<2> |result<11>     |   14.988|
+alu_nibble1<2> |result<12>     |   15.307|
+alu_nibble1<2> |result<13>     |   15.484|
+alu_nibble1<2> |result<14>     |   15.692|
+alu_nibble1<2> |result<15>     |   15.271|
+alu_nibble1<2> |zero_flag      |   18.024|
+alu_nibble1<3> |result<1>      |   14.544|
+alu_nibble1<3> |result<2>      |   14.535|
+alu_nibble1<3> |result<3>      |   14.497|
+alu_nibble1<3> |result<4>      |   14.675|
+alu_nibble1<3> |result<5>      |   14.628|
+alu_nibble1<3> |result<6>      |   14.755|
+alu_nibble1<3> |result<7>      |   15.208|
+alu_nibble1<3> |result<8>      |   14.835|
+alu_nibble1<3> |result<9>      |   15.328|
+alu_nibble1<3> |result<10>     |   15.334|
+alu_nibble1<3> |result<11>     |   14.615|
+alu_nibble1<3> |result<12>     |   14.934|
+alu_nibble1<3> |result<13>     |   15.111|
+alu_nibble1<3> |result<14>     |   15.319|
+alu_nibble1<3> |result<15>     |   14.898|
+alu_nibble1<3> |zero_flag      |   17.651|
+alu_nibble1<4> |result<1>      |   14.596|
+alu_nibble1<4> |result<2>      |   14.587|
+alu_nibble1<4> |result<3>      |   14.549|
+alu_nibble1<4> |result<4>      |   14.727|
+alu_nibble1<4> |result<5>      |   14.680|
+alu_nibble1<4> |result<6>      |   14.807|
+alu_nibble1<4> |result<7>      |   15.260|
+alu_nibble1<4> |result<8>      |   14.887|
+alu_nibble1<4> |result<9>      |   15.380|
+alu_nibble1<4> |result<10>     |   15.386|
+alu_nibble1<4> |result<11>     |   14.667|
+alu_nibble1<4> |result<12>     |   14.986|
+alu_nibble1<4> |result<13>     |   15.163|
+alu_nibble1<4> |result<14>     |   15.371|
+alu_nibble1<4> |result<15>     |   14.950|
+alu_nibble1<4> |zero_flag      |   17.703|
+alu_nibble1<5> |result<1>      |   14.400|
+alu_nibble1<5> |result<2>      |   14.391|
+alu_nibble1<5> |result<3>      |   14.353|
+alu_nibble1<5> |result<4>      |   14.531|
+alu_nibble1<5> |result<5>      |   14.484|
+alu_nibble1<5> |result<6>      |   14.611|
+alu_nibble1<5> |result<7>      |   15.064|
+alu_nibble1<5> |result<8>      |   14.691|
+alu_nibble1<5> |result<9>      |   15.184|
+alu_nibble1<5> |result<10>     |   15.190|
+alu_nibble1<5> |result<11>     |   14.471|
+alu_nibble1<5> |result<12>     |   14.790|
+alu_nibble1<5> |result<13>     |   14.967|
+alu_nibble1<5> |result<14>     |   15.175|
+alu_nibble1<5> |result<15>     |   14.754|
+alu_nibble1<5> |zero_flag      |   17.507|
+alu_nibble1<6> |result<1>      |   14.427|
+alu_nibble1<6> |result<2>      |   14.418|
+alu_nibble1<6> |result<3>      |   14.380|
+alu_nibble1<6> |result<4>      |   14.558|
+alu_nibble1<6> |result<5>      |   14.511|
+alu_nibble1<6> |result<6>      |   14.638|
+alu_nibble1<6> |result<7>      |   15.091|
+alu_nibble1<6> |result<8>      |   14.718|
+alu_nibble1<6> |result<9>      |   15.211|
+alu_nibble1<6> |result<10>     |   15.217|
+alu_nibble1<6> |result<11>     |   14.498|
+alu_nibble1<6> |result<12>     |   14.817|
+alu_nibble1<6> |result<13>     |   14.994|
+alu_nibble1<6> |result<14>     |   15.202|
+alu_nibble1<6> |result<15>     |   14.781|
+alu_nibble1<6> |zero_flag      |   17.534|
+alu_nibble1<7> |result<1>      |   14.036|
+alu_nibble1<7> |result<2>      |   14.027|
+alu_nibble1<7> |result<3>      |   13.989|
+alu_nibble1<7> |result<4>      |   14.167|
+alu_nibble1<7> |result<5>      |   14.120|
+alu_nibble1<7> |result<6>      |   14.247|
+alu_nibble1<7> |result<7>      |   14.700|
+alu_nibble1<7> |result<8>      |   14.327|
+alu_nibble1<7> |result<9>      |   14.820|
+alu_nibble1<7> |result<10>     |   14.826|
+alu_nibble1<7> |result<11>     |   14.107|
+alu_nibble1<7> |result<12>     |   14.426|
+alu_nibble1<7> |result<13>     |   14.603|
+alu_nibble1<7> |result<14>     |   14.811|
+alu_nibble1<7> |result<15>     |   14.390|
+alu_nibble1<7> |zero_flag      |   17.143|
+alu_nibble1<8> |result<1>      |   14.455|
+alu_nibble1<8> |result<2>      |   14.446|
+alu_nibble1<8> |result<3>      |   14.408|
+alu_nibble1<8> |result<4>      |   14.586|
+alu_nibble1<8> |result<5>      |   14.539|
+alu_nibble1<8> |result<6>      |   14.666|
+alu_nibble1<8> |result<7>      |   15.119|
+alu_nibble1<8> |result<8>      |   14.746|
+alu_nibble1<8> |result<9>      |   15.239|
+alu_nibble1<8> |result<10>     |   15.245|
+alu_nibble1<8> |result<11>     |   14.526|
+alu_nibble1<8> |result<12>     |   14.845|
+alu_nibble1<8> |result<13>     |   15.022|
+alu_nibble1<8> |result<14>     |   15.230|
+alu_nibble1<8> |result<15>     |   14.809|
+alu_nibble1<8> |zero_flag      |   17.562|
+alu_nibble1<9> |result<1>      |   13.136|
+alu_nibble1<9> |result<2>      |   13.127|
+alu_nibble1<9> |result<3>      |   13.089|
+alu_nibble1<9> |result<4>      |   13.267|
+alu_nibble1<9> |result<5>      |   13.220|
+alu_nibble1<9> |result<6>      |   13.347|
+alu_nibble1<9> |result<7>      |   13.800|
+alu_nibble1<9> |result<8>      |   13.427|
+alu_nibble1<9> |result<9>      |   13.920|
+alu_nibble1<9> |result<10>     |   13.926|
+alu_nibble1<9> |result<11>     |   13.207|
+alu_nibble1<9> |result<12>     |   13.526|
+alu_nibble1<9> |result<13>     |   13.703|
+alu_nibble1<9> |result<14>     |   13.911|
+alu_nibble1<9> |result<15>     |   13.490|
+alu_nibble1<9> |zero_flag      |   16.243|
+alu_nibble1<10>|result<1>      |   13.893|
+alu_nibble1<10>|result<2>      |   13.884|
+alu_nibble1<10>|result<3>      |   13.846|
+alu_nibble1<10>|result<4>      |   14.024|
+alu_nibble1<10>|result<5>      |   13.977|
+alu_nibble1<10>|result<6>      |   14.104|
+alu_nibble1<10>|result<7>      |   14.557|
+alu_nibble1<10>|result<8>      |   14.184|
+alu_nibble1<10>|result<9>      |   14.677|
+alu_nibble1<10>|result<10>     |   14.683|
+alu_nibble1<10>|result<11>     |   13.964|
+alu_nibble1<10>|result<12>     |   14.283|
+alu_nibble1<10>|result<13>     |   14.460|
+alu_nibble1<10>|result<14>     |   14.668|
+alu_nibble1<10>|result<15>     |   14.247|
+alu_nibble1<10>|zero_flag      |   17.000|
+alu_nibble1<11>|result<1>      |   13.123|
+alu_nibble1<11>|result<2>      |   13.114|
+alu_nibble1<11>|result<3>      |   13.076|
+alu_nibble1<11>|result<4>      |   13.254|
+alu_nibble1<11>|result<5>      |   13.207|
+alu_nibble1<11>|result<6>      |   13.334|
+alu_nibble1<11>|result<7>      |   13.787|
+alu_nibble1<11>|result<8>      |   13.414|
+alu_nibble1<11>|result<9>      |   13.907|
+alu_nibble1<11>|result<10>     |   13.913|
+alu_nibble1<11>|result<11>     |   13.194|
+alu_nibble1<11>|result<12>     |   13.513|
+alu_nibble1<11>|result<13>     |   13.690|
+alu_nibble1<11>|result<14>     |   13.898|
+alu_nibble1<11>|result<15>     |   13.477|
+alu_nibble1<11>|zero_flag      |   16.230|
+alu_nibble1<12>|result<1>      |   14.096|
+alu_nibble1<12>|result<2>      |   14.087|
+alu_nibble1<12>|result<3>      |   14.049|
+alu_nibble1<12>|result<4>      |   14.227|
+alu_nibble1<12>|result<5>      |   14.180|
+alu_nibble1<12>|result<6>      |   14.307|
+alu_nibble1<12>|result<7>      |   14.760|
+alu_nibble1<12>|result<8>      |   14.387|
+alu_nibble1<12>|result<9>      |   14.880|
+alu_nibble1<12>|result<10>     |   14.886|
+alu_nibble1<12>|result<11>     |   14.167|
+alu_nibble1<12>|result<12>     |   14.486|
+alu_nibble1<12>|result<13>     |   14.663|
+alu_nibble1<12>|result<14>     |   14.871|
+alu_nibble1<12>|result<15>     |   14.450|
+alu_nibble1<12>|zero_flag      |   17.203|
+alu_nibble1<13>|result<1>      |   13.162|
+alu_nibble1<13>|result<2>      |   13.153|
+alu_nibble1<13>|result<3>      |   13.115|
+alu_nibble1<13>|result<4>      |   13.293|
+alu_nibble1<13>|result<5>      |   13.246|
+alu_nibble1<13>|result<6>      |   13.373|
+alu_nibble1<13>|result<7>      |   13.826|
+alu_nibble1<13>|result<8>      |   13.453|
+alu_nibble1<13>|result<9>      |   13.946|
+alu_nibble1<13>|result<10>     |   13.952|
+alu_nibble1<13>|result<11>     |   13.233|
+alu_nibble1<13>|result<12>     |   13.552|
+alu_nibble1<13>|result<13>     |   13.729|
+alu_nibble1<13>|result<14>     |   13.937|
+alu_nibble1<13>|result<15>     |   13.516|
+alu_nibble1<13>|zero_flag      |   16.269|
+alu_nibble1<14>|result<1>      |   12.812|
+alu_nibble1<14>|result<2>      |   12.803|
+alu_nibble1<14>|result<3>      |   12.765|
+alu_nibble1<14>|result<4>      |   12.943|
+alu_nibble1<14>|result<5>      |   12.896|
+alu_nibble1<14>|result<6>      |   13.023|
+alu_nibble1<14>|result<7>      |   13.476|
+alu_nibble1<14>|result<8>      |   13.103|
+alu_nibble1<14>|result<9>      |   13.596|
+alu_nibble1<14>|result<10>     |   13.602|
+alu_nibble1<14>|result<11>     |   12.883|
+alu_nibble1<14>|result<12>     |   13.202|
+alu_nibble1<14>|result<13>     |   13.379|
+alu_nibble1<14>|result<14>     |   13.587|
+alu_nibble1<14>|result<15>     |   13.166|
+alu_nibble1<14>|zero_flag      |   15.919|
+alu_nibble1<15>|result<1>      |   12.689|
+alu_nibble1<15>|result<2>      |   12.680|
+alu_nibble1<15>|result<3>      |   12.642|
+alu_nibble1<15>|result<4>      |   12.820|
+alu_nibble1<15>|result<5>      |   12.773|
+alu_nibble1<15>|result<6>      |   12.900|
+alu_nibble1<15>|result<7>      |   13.353|
+alu_nibble1<15>|result<8>      |   12.980|
+alu_nibble1<15>|result<9>      |   13.473|
+alu_nibble1<15>|result<10>     |   13.479|
+alu_nibble1<15>|result<11>     |   12.760|
+alu_nibble1<15>|result<12>     |   13.079|
+alu_nibble1<15>|result<13>     |   13.256|
+alu_nibble1<15>|result<14>     |   13.464|
+alu_nibble1<15>|result<15>     |   13.043|
+alu_nibble1<15>|zero_flag      |   15.796|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 14 15:07:11 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 205 MB
+
+
+
